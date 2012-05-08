@@ -1,0 +1,5 @@
+PODS:
+  - CocoaAsyncSocket (0.0.1)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket

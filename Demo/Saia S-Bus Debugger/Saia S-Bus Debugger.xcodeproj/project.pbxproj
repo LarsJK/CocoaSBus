@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4641454E155973000076D58C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4641454D155973000076D58C /* UIKit.framework */; };
+		46414550155973000076D58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4641454F155973000076D58C /* Foundation.framework */; };
+		46414552155973000076D58C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46414551155973000076D58C /* CoreGraphics.framework */; };
+		46414558155973000076D58C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46414556155973000076D58C /* InfoPlist.strings */; };
+		4641455A155973000076D58C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46414559155973000076D58C /* main.m */; };
+		4641455E155973000076D58C /* LJKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4641455D155973000076D58C /* LJKAppDelegate.m */; };
+		46414561155973000076D58C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4641455F155973000076D58C /* MainStoryboard_iPhone.storyboard */; };
+		46414564155973000076D58C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46414562155973000076D58C /* MainStoryboard_iPad.storyboard */; };
+		46414567155973000076D58C /* LJKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46414566155973000076D58C /* LJKViewController.m */; };
+		4641456F155973000076D58C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4641456E155973000076D58C /* SenTestingKit.framework */; };
+		46414570155973000076D58C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4641454D155973000076D58C /* UIKit.framework */; };
+		46414571155973000076D58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4641454F155973000076D58C /* Foundation.framework */; };
+		46414579155973000076D58C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46414577155973000076D58C /* InfoPlist.strings */; };
+		4641457C155973000076D58C /* Saia_S_Bus_DebuggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4641457B155973000076D58C /* Saia_S_Bus_DebuggerTests.m */; };
+		464145901559742A0076D58C /* CocoaSBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4641458F1559742A0076D58C /* CocoaSBus.m */; };
+		BD37A89B7F4D4362A1E7D841 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBE00778B7B4A89BE9846E7 /* libPods.a */; };
+		D6158104D45A4893AC5170C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBE00778B7B4A89BE9846E7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46414572155973000076D58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46414540155973000076D58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46414548155973000076D58C;
+			remoteInfo = "Saia S-Bus Debugger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043311126EB24E9183BB0E98 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		0DBE00778B7B4A89BE9846E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46414549155973000076D58C /* Saia S-Bus Debugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saia S-Bus Debugger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4641454D155973000076D58C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4641454F155973000076D58C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46414551155973000076D58C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46414555155973000076D58C /* Saia S-Bus Debugger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saia S-Bus Debugger-Info.plist"; sourceTree = "<group>"; };
+		46414557155973000076D58C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46414559155973000076D58C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4641455B155973000076D58C /* Saia S-Bus Debugger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Saia S-Bus Debugger-Prefix.pch"; sourceTree = "<group>"; };
+		4641455C155973000076D58C /* LJKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJKAppDelegate.h; sourceTree = "<group>"; };
+		4641455D155973000076D58C /* LJKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJKAppDelegate.m; sourceTree = "<group>"; };
+		46414560155973000076D58C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		46414563155973000076D58C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		46414565155973000076D58C /* LJKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJKViewController.h; sourceTree = "<group>"; };
+		46414566155973000076D58C /* LJKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJKViewController.m; sourceTree = "<group>"; };
+		4641456D155973000076D58C /* Saia S-Bus DebuggerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saia S-Bus DebuggerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4641456E155973000076D58C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		46414576155973000076D58C /* Saia S-Bus DebuggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saia S-Bus DebuggerTests-Info.plist"; sourceTree = "<group>"; };
+		46414578155973000076D58C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4641457A155973000076D58C /* Saia_S_Bus_DebuggerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saia_S_Bus_DebuggerTests.h; sourceTree = "<group>"; };
+		4641457B155973000076D58C /* Saia_S_Bus_DebuggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saia_S_Bus_DebuggerTests.m; sourceTree = "<group>"; };
+		4641458E1559742A0076D58C /* CocoaSBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaSBus.h; path = ../../CocoaSBus/CocoaSBus.h; sourceTree = "<group>"; };
+		4641458F1559742A0076D58C /* CocoaSBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CocoaSBus.m; path = ../../CocoaSBus/CocoaSBus.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46414546155973000076D58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4641454E155973000076D58C /* UIKit.framework in Frameworks */,
+				46414550155973000076D58C /* Foundation.framework in Frameworks */,
+				46414552155973000076D58C /* CoreGraphics.framework in Frameworks */,
+				BD37A89B7F4D4362A1E7D841 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46414569155973000076D58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4641456F155973000076D58C /* SenTestingKit.framework in Frameworks */,
+				46414570155973000076D58C /* UIKit.framework in Frameworks */,
+				46414571155973000076D58C /* Foundation.framework in Frameworks */,
+				D6158104D45A4893AC5170C8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4641453E155973000076D58C = {
+			isa = PBXGroup;
+			children = (
+				4641458C155974060076D58C /* CocoaSBus */,
+				46414553155973000076D58C /* Saia S-Bus Debugger */,
+				46414574155973000076D58C /* Saia S-Bus DebuggerTests */,
+				4641454C155973000076D58C /* Frameworks */,
+				4641454A155973000076D58C /* Products */,
+				043311126EB24E9183BB0E98 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4641454A155973000076D58C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46414549155973000076D58C /* Saia S-Bus Debugger.app */,
+				4641456D155973000076D58C /* Saia S-Bus DebuggerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4641454C155973000076D58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4641454D155973000076D58C /* UIKit.framework */,
+				4641454F155973000076D58C /* Foundation.framework */,
+				46414551155973000076D58C /* CoreGraphics.framework */,
+				4641456E155973000076D58C /* SenTestingKit.framework */,
+				0DBE00778B7B4A89BE9846E7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46414553155973000076D58C /* Saia S-Bus Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				4641455C155973000076D58C /* LJKAppDelegate.h */,
+				4641455D155973000076D58C /* LJKAppDelegate.m */,
+				4641455F155973000076D58C /* MainStoryboard_iPhone.storyboard */,
+				46414562155973000076D58C /* MainStoryboard_iPad.storyboard */,
+				46414565155973000076D58C /* LJKViewController.h */,
+				46414566155973000076D58C /* LJKViewController.m */,
+				46414554155973000076D58C /* Supporting Files */,
+			);
+			path = "Saia S-Bus Debugger";
+			sourceTree = "<group>";
+		};
+		46414554155973000076D58C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46414555155973000076D58C /* Saia S-Bus Debugger-Info.plist */,
+				46414556155973000076D58C /* InfoPlist.strings */,
+				46414559155973000076D58C /* main.m */,
+				4641455B155973000076D58C /* Saia S-Bus Debugger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46414574155973000076D58C /* Saia S-Bus DebuggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4641457A155973000076D58C /* Saia_S_Bus_DebuggerTests.h */,
+				4641457B155973000076D58C /* Saia_S_Bus_DebuggerTests.m */,
+				46414575155973000076D58C /* Supporting Files */,
+			);
+			path = "Saia S-Bus DebuggerTests";
+			sourceTree = "<group>";
+		};
+		46414575155973000076D58C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46414576155973000076D58C /* Saia S-Bus DebuggerTests-Info.plist */,
+				46414577155973000076D58C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4641458C155974060076D58C /* CocoaSBus */ = {
+			isa = PBXGroup;
+			children = (
+				4641458E1559742A0076D58C /* CocoaSBus.h */,
+				4641458F1559742A0076D58C /* CocoaSBus.m */,
+			);
+			name = CocoaSBus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46414548155973000076D58C /* Saia S-Bus Debugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4641457F155973000076D58C /* Build configuration list for PBXNativeTarget "Saia S-Bus Debugger" */;
+			buildPhases = (
+				46414545155973000076D58C /* Sources */,
+				46414546155973000076D58C /* Frameworks */,
+				46414547155973000076D58C /* Resources */,
+				8EC0DFB9976749C5B36133B6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Saia S-Bus Debugger";
+			productName = "Saia S-Bus Debugger";
+			productReference = 46414549155973000076D58C /* Saia S-Bus Debugger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4641456C155973000076D58C /* Saia S-Bus DebuggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46414582155973000076D58C /* Build configuration list for PBXNativeTarget "Saia S-Bus DebuggerTests" */;
+			buildPhases = (
+				46414568155973000076D58C /* Sources */,
+				46414569155973000076D58C /* Frameworks */,
+				4641456A155973000076D58C /* Resources */,
+				4641456B155973000076D58C /* ShellScript */,
+				8EC0DFB9976749C5B36133B6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46414573155973000076D58C /* PBXTargetDependency */,
+			);
+			name = "Saia S-Bus DebuggerTests";
+			productName = "Saia S-Bus DebuggerTests";
+			productReference = 4641456D155973000076D58C /* Saia S-Bus DebuggerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46414540155973000076D58C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 46414543155973000076D58C /* Build configuration list for PBXProject "Saia S-Bus Debugger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4641453E155973000076D58C;
+			productRefGroup = 4641454A155973000076D58C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46414548155973000076D58C /* Saia S-Bus Debugger */,
+				4641456C155973000076D58C /* Saia S-Bus DebuggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46414547155973000076D58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46414558155973000076D58C /* InfoPlist.strings in Resources */,
+				46414561155973000076D58C /* MainStoryboard_iPhone.storyboard in Resources */,
+				46414564155973000076D58C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4641456A155973000076D58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46414579155973000076D58C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4641456B155973000076D58C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		8EC0DFB9976749C5B36133B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46414545155973000076D58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4641455A155973000076D58C /* main.m in Sources */,
+				4641455E155973000076D58C /* LJKAppDelegate.m in Sources */,
+				46414567155973000076D58C /* LJKViewController.m in Sources */,
+				464145901559742A0076D58C /* CocoaSBus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46414568155973000076D58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4641457C155973000076D58C /* Saia_S_Bus_DebuggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46414573155973000076D58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46414548155973000076D58C /* Saia S-Bus Debugger */;
+			targetProxy = 46414572155973000076D58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46414556155973000076D58C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46414557155973000076D58C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4641455F155973000076D58C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46414560155973000076D58C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		46414562155973000076D58C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46414563155973000076D58C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		46414577155973000076D58C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46414578155973000076D58C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4641457D155973000076D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4641457E155973000076D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46414580155973000076D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043311126EB24E9183BB0E98 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saia S-Bus Debugger/Saia S-Bus Debugger-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Saia S-Bus Debugger/Saia S-Bus Debugger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46414581155973000076D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043311126EB24E9183BB0E98 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saia S-Bus Debugger/Saia S-Bus Debugger-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Saia S-Bus Debugger/Saia S-Bus Debugger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46414583155973000076D58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043311126EB24E9183BB0E98 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saia S-Bus Debugger.app/Saia S-Bus Debugger";
+				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saia S-Bus Debugger/Saia S-Bus Debugger-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Saia S-Bus DebuggerTests/Saia S-Bus DebuggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		46414584155973000076D58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043311126EB24E9183BB0E98 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saia S-Bus Debugger.app/Saia S-Bus Debugger";
+				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saia S-Bus Debugger/Saia S-Bus Debugger-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Saia S-Bus DebuggerTests/Saia S-Bus DebuggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46414543155973000076D58C /* Build configuration list for PBXProject "Saia S-Bus Debugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4641457D155973000076D58C /* Debug */,
+				4641457E155973000076D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4641457F155973000076D58C /* Build configuration list for PBXNativeTarget "Saia S-Bus Debugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46414580155973000076D58C /* Debug */,
+				46414581155973000076D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46414582155973000076D58C /* Build configuration list for PBXNativeTarget "Saia S-Bus DebuggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46414583155973000076D58C /* Debug */,
+				46414584155973000076D58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46414540155973000076D58C /* Project object */;
+}
